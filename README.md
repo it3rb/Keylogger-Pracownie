@@ -2,6 +2,12 @@
 
 # Version
 Early version of Java keylogger.
+# Basic use of the application
+  You have four buttons:
+  * **Start** - Starts the program
+  * **Hide** - Hides the program's gui
+  * **Exit** - Turns off the program
+  * **ShowLogs** - Opens the log folder
 # Documentation
 
 ## Used libraries
