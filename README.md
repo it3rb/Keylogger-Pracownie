@@ -28,5 +28,8 @@ Early version of Java keylogger.
 * **HideAppMainLogic** - The class containing main program logic. With implement NativeKeyListener
   ### HideAppMainLogic methods
   * **mainLogicStart** - Parameterless method used to start listening.
-  * **nativeKeyPressed** - Parameter: NativeKeyEvent,method used to capture keystrokes.
+  * **nativeKeyPressed** - Parameter: NativeKeyEvent, method used to capture keystrokes.
   The method captures the pressed key and save it in the getCatchedLetter variable then invoke the **saveLogs** method
+  * **saveLogs**  - Parameter: String getCatchedLetter method used to save letters in to logs txt file. To save letters in to file I used java BufferedWriter class and java LocalDate calss.
+    **saveLogs postscriptum* logs will be saved in folder where the program is.
+
