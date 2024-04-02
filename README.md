@@ -11,3 +11,4 @@ Early version of Java keylogger.
 
 ## Package
 * App - Main package of the project
+* keyLoggerLogic  - Package with main logic of the program placed in App package
