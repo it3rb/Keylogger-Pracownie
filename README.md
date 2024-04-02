@@ -8,3 +8,6 @@ Early version of Java keylogger.
 
 * Java Swing
 * jnativehook-2.2.2
+
+## Package
+* App - Main package of the project
