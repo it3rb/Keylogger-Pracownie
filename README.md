@@ -20,8 +20,13 @@ Early version of Java keylogger.
   ### AppBody methods
   * **aplicationBody** - Parameterless method, main method in **AppBody** class.
   * **actionPerformed** - Parameter: ActionEvent e, ActionListener method.
-* **ActivAppMainLogic** - A class used to run the program's hidden logic.
-  ### ActiveAppMainLogic methods
-  * **getMainLogic** - Private method made to get **mainLogicStart** method.
-  * **startMainLogic** Public method designed to invoke program logic in other classes. 
-  
+* **ActivAppMainLogic** - A class used to run the program's hidden logic. Inherited from the **HideAppMainLogic** class
+  ### ActiveAppMainLogic methods 
+  * **getMainLogic** - Parameterless private method made to get **mainLogicStart** method.
+  * **startMainLogic** Parameterless public method designed to invoke program logic in other classes.
+  * **startOpenFolderLogic** Parameterless public method designed to invoke program logic in other classes.
+* **HideAppMainLogic** - The class containing main program logic. With implement NativeKeyListener
+  ### HideAppMainLogic methods
+  * **mainLogicStart** - Parameterless method used to start listening.
+  * **nativeKeyPressed** - Parameter: NativeKeyEvent,method used to capture keystrokes.
+The method captures the pressed key and stores it in the getCatchedLetter variable 
