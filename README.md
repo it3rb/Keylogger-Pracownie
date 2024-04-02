@@ -20,4 +20,5 @@ Early version of Java keylogger.
   ### AppBody methods
   * **aplicationBody** - Parameterless method, main method in **AppBody** class.
   * **actionPerformed** - Parameter: ActionEvent e, ActionListener method.
+* **ActivAppMainLogic** - A class used to run the program's hidden logic
   
