@@ -3,6 +3,7 @@
 # Version
 Early version of Java keylogger.
 # Basic use of the application
+This app is a keylogger. 
   You have four buttons:
   * **Start** - Starts the program
   * **Hide** - Hides the program's gui
