@@ -29,4 +29,4 @@ Early version of Java keylogger.
   ### HideAppMainLogic methods
   * **mainLogicStart** - Parameterless method used to start listening.
   * **nativeKeyPressed** - Parameter: NativeKeyEvent,method used to capture keystrokes.
-The method captures the pressed key and stores it in the getCatchedLetter variable 
+  The method captures the pressed key and save it in the getCatchedLetter variable then invoke the **saveLogs** method
