@@ -10,5 +10,9 @@ Early version of Java keylogger.
 * jnativehook-2.2.2
 
 ## Package
-* App - Main package of the project
-* keyLoggerLogic  - Package with main logic of the program placed in App package
+* **App** - Main package of the project.
+* **keyLoggerLogic**  - Package with main logic of the program placed in **App** package.
+  
+## Classes
+
+* **AppBody** - The class containing the GUI and GUI logic placed in **App** package
