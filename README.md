@@ -2,7 +2,9 @@
 
 # Version
 Early version of Java keylogger.
+#Documentation
 
-# Used libraries
+## Used libraries
+
 Java Swing
 jnativehook-2.2.2
