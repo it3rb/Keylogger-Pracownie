@@ -15,4 +15,7 @@ Early version of Java keylogger.
   
 ## Classes
 
-* **AppBody** - The class containing the GUI and GUI logic placed in **App** package
+* **AppBody** - The class containing the GUI and GUI logic placed in **App** package.
+  ### AppBody methods
+  * **aplicationBody** - Parameterless method, main method in **AppBody** class.
+  
