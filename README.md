@@ -14,7 +14,7 @@ Early version of Java keylogger.
 * **keyLoggerLogic**  - Package with main logic of the program placed in **App** package.
   
 ## Classes
-* Main * - Main class of the program
+* **Main**  - Main class of the program
 
 * **AppBody** - The class containing the GUI and GUI logic placed in **App** package.
   ### AppBody methods
