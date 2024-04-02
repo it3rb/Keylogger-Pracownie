@@ -32,8 +32,8 @@ This app is a keylogger.
   * **getMainLogic** - Parameterless private method made to get **mainLogicStart** method.
   * **startMainLogic** Parameterless public method designed to invoke program logic in other classes.
   * **startOpenFolderLogic** Parameterless public method designed to invoke program logic in other classes.
-* **HideAppMainLogic** -A class containing main program logic. With implement NativeKeyListener
-  ### HideAppMainLogic methods
+* **HiddenAppMainLogic** -A class containing main program logic. With implement NativeKeyListener
+  ### HiddenAppMainLogic methods
   * **mainLogicStart** - Parameterless method used to start listening.
   * **nativeKeyPressed** - Parameter: NativeKeyEvent e, method used to capture keystrokes.
   The method captures the pressed key and save it in the getCatchedLetter variable then invoke the **saveLogs** method
